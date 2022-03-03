@@ -1,0 +1,363 @@
+/* 와이드 pc */
+#content {
+    background: rgba(255, 255, 255, .9);
+    overflow: hidden;
+}
+
+#content .characters {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#content .characters h3 {
+    padding: 120px 0 0;
+}
+
+#content .characters p {
+    text-align: center;
+}
+
+#content .characters p:nth-of-type(1) {
+    font-size: 1.3em;
+    color: #999;
+    margin: 0 0 20px;
+}
+
+#content .characters p:nth-of-type(2) {
+    font-size: 1em;
+    color: #333;
+    margin: 0 auto 90px;
+    word-break: keep-all;
+}
+
+#content .characters h4 {
+    font-size: 3em;
+    /* font-family: 'Dongle', sans-serif; */
+}
+
+#content .characters ul {
+    width: 25%;
+    overflow: hidden;
+    float: right;
+    margin-right: 5%;
+}
+
+#content .characters ul li {
+    margin: 1%;
+    float: left;
+}
+
+#content .characters ul li:nth-of-type(9),
+#content .characters ul li:nth-of-type(10) {
+    display: none;
+}
+
+#content .characters ul li img {
+    width: 130px;
+    height: 130px;
+    border-radius: 52px;
+}
+.characters .gallery-thumbs ul li a{
+    filter: grayscale(100%);
+}
+
+
+#content .characters ul li h4 {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#content .characters .charbox {
+    position: relative;
+    width: 20%;
+}
+
+#content .characters .charbox img {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 20;
+    margin-top: 18%;
+}
+
+#content .characters dl {
+    width: 30%;
+    padding: 8% 5% 8% 25%;
+    margin: 2% 0;
+    position: relative;
+    top: 0;
+    left: 5%;
+    border-radius: 10% 40% / 50% 20%;
+    background: rgb(255, 240, 210);
+}
+
+#content .characters dl dt {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#content .card {
+    width: 90%;
+    margin: 60px auto 0;
+    position: relative;
+}
+#content .card1, #content .card2{overflow: hidden; position: relative;}
+
+#content .card .charact1 .front {
+    width: 30%;
+    background: rgb(255, 231, 211);
+    background-image: url('../images/pendajr.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#content .card .charact1 .back {
+    width: 30%;
+    background: rgb(255, 231, 211);
+}
+
+#content .card .charact1 dl {
+    padding: 15% 10%;
+}
+
+#content .card .item {
+    float: left;
+    border-radius: 15px;
+    margin: 0 0 2% 2%;
+    padding: 4% 0;
+}
+
+#content .card .charact1 .item,
+#content .card .charact4 .item {
+    /*카드의 뒷면을 안보이게 처리-카드가 뒤집히면 뒷면이 안보임*/
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+#content .charact1 .item.front {
+    /* 앞면 카드가 부유하게 되어, 뒷면 카드가 아래에서 위로 올라감 -> 요소 두개가 겹치게 됨*/
+    position: absolute;
+    /* 명시적으로 기본값 설정, 없어도 됨*/
+    transform: rotateY(0deg);
+}
+
+#content .charact4 .item.front {
+    /* 앞면 카드가 부유하게 되어, 뒷면 카드가 아래에서 위로 올라감 -> 요소 두개가 겹치게 됨*/
+    position: absolute;
+    top:0;
+    right: 0;
+    /* 명시적으로 기본값 설정, 없어도 됨*/
+    transform: rotateY(0deg);
+    margin: 0;
+}
+
+#content .charact1:hover .item.front,
+#content .charact4:hover .item.front {
+    transform: rotateY(180deg);
+}
+
+#content .charact1 .item.back,
+#content .charact4 .item.back {
+    /*y축을 중심으로 -180도 회전*/
+    transform: rotateY(-180deg);
+}
+
+#content .charact1:hover .item.back,
+#content .charact4:hover .item.back {
+    transform: rotateY(0deg);
+}
+
+#content .card .charact2 {
+    width: 68%;
+    background: rgb(221, 232, 246);
+    background-image: url('../images/keroberony.png');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 30%;
+}
+
+#content .card .charact3 {
+    width: 60%;
+    background: rgb(227, 225, 247);
+    background-image: url('../images/cobbanya.png');
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 28%;
+}
+
+#content .card .charact4 .front {
+    width: 38%;
+   
+    background: rgb(240, 240, 240);
+    background-image: url('../images/frodoneo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+#content .card .charact4 .back {
+    width: 38%;
+    background: rgb(240, 240, 240);
+}
+
+#content .card .charact2 dl {
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#content .card .charact3 dl {
+    float: right;
+    width: 48%;
+    text-align: right;
+    margin-top: 5%;
+}
+
+#content .card .charact1 .item,
+#content .card .charact3.item {
+    margin-left: 0;
+}
+
+#content .card dl {
+    padding: 0 5%;
+}
+
+#content .card dl dt {
+    font-size: 1.78em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 700;
+}
+
+#content .card dl dd {
+    font-size: 1em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    word-break: keep-all;
+}
+
+#content .card dl dd:nth-of-type(1) {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+#footerArea {
+    clear: both;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    /* #content .characters ul li:nth-of-type(3),
+    #content .characters ul li:nth-of-type(4) {
+        display: none;
+    } */
+
+    #content .characters ul {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #content .characters dl {
+        width: 40%;
+        margin: 5% auto;
+    }
+
+    #content .characters .charbox img {
+        left: 95%;
+        margin-top: 58%;
+    }
+
+  
+
+    #content .characters dl{
+        position: static;
+    }
+
+    #content .card .charact3{height: auto;}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+    #content .card .charact3,
+    #content .card .charact4 {
+        display: none;
+    }
+
+    #content .characters ul li:nth-of-type(7),
+    #content .characters ul li:nth-of-type(8) {
+        display: block;
+    }
+
+    #content .characters ul li img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #content .characters ul {
+        width: 60%;
+    }
+
+    #content .characters dl{
+        width: 70%;
+        border-radius: 15px;
+    }
+
+    #content .characters .charbox img {
+        left: 20%;
+        margin-top: 80%;
+    }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content .characters ul li:nth-of-type(3),
+    #content .characters ul li:nth-of-type(4) {
+        display: none;
+    }
+
+    #content .characters ul li img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #content .characters h3 {
+        padding: 100px 0 0;
+    }
+
+    #content .characters p:nth-of-type(2){
+        margin: 0 0 40px;
+    }
+
+    #content .card .charact1 {
+        display: none;
+    }
+
+    #content .card .charact2,
+    #content .card .charact3 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #content .card{
+        margin: 0 auto;
+    }
+
+    #content .charact4 {
+        height: 250px;
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .card .charact3 {
+        display: block;
+    }
+}

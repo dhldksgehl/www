@@ -1,0 +1,117 @@
+/* 와이드 pc */
+#content{
+    background: rgba(255, 255, 255, .8);
+    overflow: hidden;
+}
+
+#content .store .flexslider {
+    width: 60%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto 100px;
+ }
+ 
+ #content .store .flexslider .slides li {
+    position: relative;
+ }
+ 
+ #content .store .flexslider li p {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+ }
+ 
+ #content .store .flexslider li p span {
+    color: #fff;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 15px;
+ }
+#content .gallery {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5%;
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+#content .gallery li:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+#content .gallery li:nth-child(8) {
+    grid-column: 3/5;
+}
+
+#content .gallery li {
+    position: relative;
+    overflow: hidden;
+}
+
+#content .gallery li a {
+    display: block;
+}
+
+#content .gallery img{
+    width: 100%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #content .store .flexslider {
+        width: 70%;
+    }
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .store .flexslider {
+        width: 90%;
+    }
+
+    #content .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #content .gallery li:nth-child(6),
+    #content .gallery li:nth-child(5),
+    #content .gallery li:nth-child(7){
+        display: none;
+    }
+
+    #content .gallery li:nth-child(8) {
+        grid-column: 2/4;
+    }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content .store .flexslider {
+        width: 100%;
+    }
+
+    #content .gallery li:nth-child(1) {
+        grid-column: 1/4;
+        grid-row: 1/1;
+    }
+
+    #content .gallery li:nth-child(8) {
+        grid-column: 1/4;
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content .gallery li:nth-child(8) {
+        display: none;
+    }
+}

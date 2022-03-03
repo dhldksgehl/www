@@ -1,0 +1,287 @@
+/* 와이드 pc */
+/* #content{
+    width: 90%;
+    margin: 100vh auto 40px;
+    overflow: hidden;
+} */
+
+#content .playlist{
+    background: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+#content .playlist ul {
+    width: 90%;
+    margin: 0 6% 0 4%;
+}
+
+#content .playlist ul li {
+    width: 30%;
+    float: left;
+    margin: 50px 5% 0 0;
+    position: relative;
+}
+
+#content .playlist ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#content .playlist ul li img {
+    width: 100%;
+    z-index: 1;
+    box-shadow: 5px 20px 30px rgb(0 0 0 / 20%);
+}
+
+#content .playlist ul li .imgPart {
+    position: relative;
+    overflow: hidden;
+}
+
+#content .playlist ul li .imgPart:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#content .playlist ul li .imgPart::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 68px;
+    height: 47px;
+    background-image: url(../images/youtube.png);
+    background-size: 100% auto;
+    transition: background .3s;
+    z-index: 4;
+}
+
+#content .playlist ul li .imgPart:hover::before {
+    background-image: url(../images/youtube_on.png);
+}
+
+#content .playlist dl:before {
+    content: '';
+    background: #fff;
+    position: absolute;
+    top: -50%;
+    right: 0;
+    width: 5%;
+    height: 150px;
+    display: block;
+    z-index: 3;
+}
+
+#content .playlist dl {
+    background: #fff;
+    position: relative;
+    top: -40px;
+    left: 5%;
+    padding: 5%;
+    z-index: 2;
+    height: 230px;
+    box-shadow: 5px 20px 30px rgb(0 0 0 / 20%);
+}
+
+#content .playlist dl dt {
+    font-size: 1.1em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 3% 0 0;
+}
+
+#content .playlist dl dd {
+    font-size: 1em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    word-break: keep-all;
+}
+
+#content .playlist dl dd span {
+    font-size: .9em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    color: #999;
+    display: block;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#content .collabo {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 60px 0;
+    clear: both;
+}
+
+#content .collabo h3 {
+    color: #fff;
+}
+
+#content .collabo .clip {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#content .collabo .imgPart {
+    overflow: hidden;
+    position: relative;
+}
+
+
+#content .collabo .imgPart:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#content .collabo .imgPart::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 68px;
+    height: 47px;
+    background-image: url(../images/youtube.png);
+    background-size: 100% auto;
+    transition: background .3s;
+    z-index: 10;
+}
+
+#content .collabo .imgPart:hover::before {
+    background-image: url(../images/youtube_on.png);
+}
+
+
+#content .collabo dl dt {
+    font-size: 1.1em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 3% 0 0;
+    color: #fff;
+}
+
+#content .collabo dl dd {
+    font-size: 1em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    word-break: keep-all;
+    color: #fff;
+}
+
+#content .collabo dl dd span {
+    font-size: .9em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    color: #999;
+    display: block;
+    text-align: left;
+    margin-bottom: 5%;
+    color: #999;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+    #content .playlist ul li:nth-child(2),
+    #content .playlist ul li:nth-child(4) {
+        display: none;
+    }
+
+    #content .playlist ul li {
+        width: 47%;
+    }
+
+    #content .playlist dl {
+        height: 200px;
+    }
+
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .playlist dl {
+        height: auto;
+    }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+    #content .playlist ul li:nth-child(1),
+    #content .playlist ul li:nth-child(5) {
+        display: none;
+    }
+
+    #content .playlist ul li {
+        float: none;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    #content .playlist ul li .image {
+        width: 40%;
+        text-align: right;
+        z-index: 3;
+    }
+
+    #content .playlist dl {
+        height: auto;
+        padding: 3% 5% 5% 30%;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        text-align: right;
+        width: auto;
+    }
+
+    #content .playlist dl:before {
+        content: none;
+    }
+
+    #content .playlist dl dd span {
+        font-size: 0.6em;
+        text-align: right;
+    }
+
+    #content .playlist dl dt {
+        font-size: 0.9em;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+    #content .playlist ul li .image {
+        width: auto;
+    }
+
+    #content .playlist dl {
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: auto;
+    }
+
+    #content .playlist ul li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* 최소의 사이즈는 320px 고정 */
+@media screen and (max-width:480px) {
+   
+    #wrap {
+       min-width: 320px;
+    }
+ }

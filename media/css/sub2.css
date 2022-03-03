@@ -1,0 +1,134 @@
+#content{
+    background: rgba(255, 255, 255, .8);
+}
+
+.duo {
+    padding-top: 10px;
+}
+
+.duo__cell {
+    margin: 0 2%;
+    padding-bottom: 80px;
+}
+
+.duo__cell ul {
+    overflow: hidden;
+}
+
+.grid-image-item,
+.grid--images .grid-sizer {
+    width: 20%;
+}
+
+.grid-image-item {
+    float: left;
+    margin-bottom: 10px
+}
+
+.grid-image-item img {
+    border-radius: 15px;
+    display: block;
+    width: 90%;
+    margin: 20px 5% 15px;
+    transition: all .3s;
+    opacity: 1;
+}
+
+.grid-image-item img:hover {
+    transition: all .3s;
+    opacity: .5;
+}
+
+.grid-image-item dl {
+    position: absolute;
+    bottom: -87px;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    padding: 4% 4% 0;
+    width: 82%;
+    border-radius: 0 0 15px 15px;
+    opacity: 0;
+    margin: 0 5%;
+    transition: .5s;
+}
+
+.grid-image-item dl dt {
+    font-size: 1.5em;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 700;
+    float: left;
+    color: #fff;
+}
+
+.grid-image-item dl dd {
+    float: right;
+}
+
+.grid-image-item dl dt span {
+    font-size: 1rem;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.grid-image-item dl dd a {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content h2 {
+        font-size: 4em;
+    }
+
+    .grid-image-item,
+    .grid--images .grid-sizer {
+        width: 25%;
+    }
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #content h2 {
+        font-size: 3.5em;
+    }
+
+    .grid-image-item,
+    .grid--images .grid-sizer {
+        width: 33.33%;
+    }
+
+    .grid-image-item span {
+        font-size: 1.1rem;
+    }
+
+    li:nth-child(21),
+    li:nth-child(22),
+    li:nth-child(23),
+    li:nth-child(24),
+    li:nth-child(25) {
+        display: none;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content h2 {
+        font-size: 3rem;
+    }
+
+    .grid-image-item,
+    .grid--images .grid-sizer {
+        width: 50%;
+    }
+}
