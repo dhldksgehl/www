@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIPTYQUE</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="50">
+    <div id="skipNav">
+        <a href="#content">Go to Body Contents</a>
+        <a href="#navbar">Go to Navigation</a>
+    </div>
+
+    <div class="container-fluid">
+        <header id="headerArea">
+            <h1 class="hidden">DIPTYQUE</h1>
+            <nav id="navbar navbar-default navbar-fixed-top" id="navbar-scroll">
+                <h2 class="hidden">Global Navigation Area</h2>
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand">DIPTYQUE</a>
+                    </div>
+
+                    <div id="navbar" class="collapse navbar-collapse navbar-right navbar-1-collapse">
+                        <ul class="nav navbar-nav navbar">
+                            <li><a href="#about">
+                                    <h3>About</h3>
+                                </a></li>
+                            <li><a href="#episode">
+                                    <h3>Episode</h3>
+                                </a></li>
+                            <li><a href="#wall">
+                                    <h3>Wall-decor</h3>
+                                </a></li>
+                            <li><a href="#fragrance">
+                                    <h3>Fragrance</h3>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main_visual">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/visual1.jpg" alt="visual image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/visual2.jpg" alt="visual image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/visual3.jpg" alt="visual image"></div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">Main Content</h2>
+
+            <div id="about" class="row">
+                <div class="col-md-4 img">
+                    <img src="./images/about1.jpg" alt="about img">
+                    <img src="./images/about2.jpg" alt="about img">
+                </div>
+
+                <div class="col-md-8 text">
+                    <span>About</span>
+                    <h3>Diptyque</h3>
+                    <p> The very first shop, located at 34 Boulevard Saint-Germain in Paris, opens onto the street like
+                        painting. They had found the ideal stage for their chic little bazaar of fascinating finds as
+                        well
+                        as the perfect name for it; diptyque.father of Miuccia Prada.
+
+                        Located inside Milan's most famous symbol, the glass-covered Galleria Vitto items and
+                        accessories
+                        made of sophisticated technology and the best materials.</p>
+
+                    <p class="p"> It didn't take long before Galleria Vittorio Emanuele II's store
+                        and noble upper-class members of Europe. In 1919, Prada was appointed as the official supplier
+                        of
+                        the Italian Royal Household, and accordingly, the sentences and knot rope design of the House of
+                        Savoy were incorporated into the logo.</p>
+
+                    <p class="col-md-4 p"> The original Prada store in Galleria Vittorio Emanuele II maintains an
+                        ancient atmosphere. The
+                        Mahogany shelves, specially ordered and designed by Mario Prada to British architects, display
+                        very
+                        sophisticated leather products, shoes, and clothes from the latest collection in addition to the
+                        finest handmade bags, trunks, leather accessories, and beauty cases.</p>
+
+                    <img src="./images/about3.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="episode">
+                <div class="title">
+                    <span>illustration</span>
+                    <h3>Episode</h3>
+                </div>
+
+                <div class="container">
+                    <p> Each of diptyque's representative ingredients has a interesting story behind it.</p>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab1" data-toggle="tab">Do Son</a></li>
+                        <li><a href="#tab2" data-toggle="tab">L'Ombre dans l'Eau</a></li>
+                        <li><a href="#tab3" data-toggle="tab">L'Eau des Sens</a></li>
+                        <li><a href="#tab4" data-toggle="tab">Philosykos</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1">
+                            <div class="row">
+                                <img class="col-md-4 col-sm-4 col-xs-8 col" src="./images/episode1.jpg" alt="img1">
+                                <dl>
+                                    <dt>Do Son</dt>
+                                    <dd>As a child, Yves Coueslant, one of diptyque’s founders, spent his summers at a
+                                        pagoda on the seaside that his father had built in Do Son’s Along Bay. Far from
+                                        the humid heat of the large port in Haiphong, the air was cooler. The sea breeze
+                                        wallried with it the heady and slightly spicy scent of tuberoses, a favorite of
+                                        his mother. Do Son is the embodiment of precious and persistent memories from a
+                                        childhood spent in Indochina. Memories of flowers, hovering between refreshing
+                                        and enveloping.</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tab2">
+                            <div class="row">
+                                <img class="col-md-4 col-sm-4 col-xs-8" src="./images/episode2.jpg" alt="img1">
+                                <dl>
+                                    <dt>L'Ombre dans l'Eau</dt>
+                                    <dd>L’Ombre dans l’Eau is a romantic painting that narrates a story of daydreams
+                                        from a summer moment on a calm river under a weeping willow. The inspiration for
+                                        the scent happened when a friend of the founders noticed the alluring aroma of
+                                        roses and blackcurrant berries on her hands after an afternoon in the garden.
+                                        The scent was so surprising that the creators wanted to capture all of its
+                                        dimensions: the herbaceousness of the blackcurrant leaves, the fruity acidulated
+                                        accents of their buds and the floral intensity of the rose. It is a
+                                        nature-filled moment to savor. In the Eau de Parfum variation the fragrance is
+                                        denser and more sensual fragrance of a rose in full bloom.</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tab3">
+                            <div class="row">
+                                <img class="col-md-4 col-sm-4 col-xs-8" src="./images/episode3.jpg" alt="img1">
+                                <dl>
+                                    <dt>L'Eau des Sens</dt>
+                                    <dd>L’Eau des Sens is a composition that creates confusion. It wallesses the
+                                        fragrance to
+                                        the point that you imagine you can touch it. When you breathe in its scent, it
+                                        mixes up your senses, making your mouth water as if it were an indulgent treat,
+                                        awakening you with its freshness like the sound of a rushing waterfall. L’Eau
+                                        des Sens owes its originality to the very idea behind its creation: bring
+                                        together all the dimensions of bitter orange, from the roots to the top of the
+                                        tree, including branches, leaves and fruit.</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tab4">
+                            <div class="row">
+                                <img class="col-md-4 col-sm-4 col-xs-8" src="./images/episode4.jpg" alt="img1">
+                                <dl>
+                                    <dt>Philosykos</dt>
+                                    <dd>The memory of a Greek summer at Mount Pelion. To get to the sea, one needed to
+                                        cross through a natural grove of wild fig trees. At its zenith, the sun warmed
+                                        the earth and the dry wind wallried the scent of the trees and their fruit.
+                                        Philosykos is an ode to the entire fig tree: the green freshness of the leaves,
+                                        the density of the white wood, the milky flavor of the figs. In the Eau de
+                                        Parfum, the fig tree reveals itself differently. The flavor of the fruit takes a
+                                        back seat to the white cedarwood. It celebrates the strength of the tree’s bark,
+                                        warmed by the midday sun.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="wall">
+                <h3>Wall-decor</h3>
+                <div class="swiper wallSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall1.jpg" alt="wall1"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall2.jpg" alt="wall2"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall3.jpg" alt="wall3"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall4.jpg" alt="wall4"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall5.jpg" alt="wall5"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall6.jpg" alt="wall6"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall7.jpg" alt="wall7"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall8.jpg" alt="wall8"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall9.jpg" alt="wall8"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide thumbnail">
+                            <a href="#">
+                                <div class="image"><img src="./images/wall10.jpg" alt="wall8"></div>
+                                <div class="caption">
+                                    <dl>
+                                        <dt>EAU DE PARFUM ORPHEON 75ml</dt>
+                                        <dd>$171</dd>
+                                    </dl>
+                                    <p><a href="#" class="btn btn-default" role="button">View More</a></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+
+            <div id="fragrance">
+                <div class="fragrance_inner">
+                    <h3>Fragrance</h3>
+                </div>
+                <img src="images/fragrance.jpg" alt="fragrance image">
+
+                <div class="modal">
+                    <div class="perfume_modal pin"></div>
+                    <div class="savon_modal pin"></div>
+                    <div class="bougie_modal pin"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 ">
+                        <div class="thumbnail">
+                            <img src="./images/fragrance1.jpg" alt="fragrance img1">
+                            <dl>
+                                <dt>Eau de Parfum Fleur de Peau 75ml</dt>
+                                <dd>75 €</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="thumbnail">
+                            <img src="./images/fragrance2.jpg" alt="fragrance img2">
+                            <dl>
+                                <dt>Eau de Parfum Eau Duelle 75ml</dt>
+                                <dd>75 €</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 hidden-xs">
+                        <div class="thumbnail">
+                            <img src="./images/fragrance3.jpg" alt="fragrance img3">
+                            <dl>
+                                <dt>Eau de Parfum Orphéon 75ml</dt>
+                                <dd>75 €</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 hidden-xs">
+                        <div class="thumbnail">
+                            <img src="./images/fragrance4.jpg" alt="fragrance img4">
+                            <dl>
+                                <dt>Eau de Parfum Do Son 75ml</dt>
+                                <dd>75 €</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer id="footerArea">
+            <a class="topMove" href="#">
+                <span class="hidden">top</span>
+                <i class="fas fa-chevron-circle-up"></i>
+            </a>
+            <div>
+                <p><strong>Rejoignez diptyque</strong></p>
+                <ul class="sns">
+                    <li class="facebook"><a href="https://ko-kr.facebook.com/diptyque/" target="_blank"
+                            title="Opened with a new window">facebook</a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/diptyque/" target="_blank"
+                            title="Opened with a new window">instagram</a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/user/DiptyqueParis" target="_blank"
+                            title="Opened with a new window">youtube</a></li>
+                </ul>
+            </div>
+            <p>&copy; Copyright© diptyque, All Right Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>
