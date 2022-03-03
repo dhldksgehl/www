@@ -1,0 +1,35 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_1*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .content_area h3 {
+    font-size: 2em;
+    display: block;
+    margin-left: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: #1668b3;
+}
+
+#content .content_area p {
+    font-size: 1.2em;
+    margin-bottom: 210px;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 210px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #333;
+    line-height: 2em;
+    margin-top: 20px;
+}

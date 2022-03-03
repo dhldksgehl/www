@@ -1,0 +1,30 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub2_3*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .content_area p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto 50px;
+    color: #333;
+}
+
+#content .content_area img {
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 100px;
+}

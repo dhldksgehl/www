@@ -1,0 +1,191 @@
+body {
+    background: hsl(0, 0%, 96%);
+}
+
+.wrap .logo {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: url(../images/logo_b.png) 0 0 no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 40px auto 30px;
+}
+
+#content {
+    width: 800px;
+    margin: 80px auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    border-radius: 20px;
+    padding: 50px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.01);
+}
+
+form h2 {
+    font-size: 2rem;
+    position: relative;
+    margin: 0 0 20px 30px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #1668b3;
+    border-radius: 50%;
+    top: 7px;
+    left: -25px;
+}
+
+
+.member_tab {
+    padding: 30px 0;
+    border-top: 1px solid #333;
+}
+
+.member_tab a {
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 10px;
+    color: #aaa;
+}
+
+.member_tab a.on {
+    color: #fff;
+    border-bottom: 2px solid #333;
+    font-weight: bold
+}
+
+.member_tab span {
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 10px;
+    color: #fff;
+    font-weight: bold
+}
+
+.join {
+    text-align: left;
+    position: relative;
+}
+
+.join h4 {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.join h3 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.join h3::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 5px;
+    height: 28px;
+    background: #1668b3;
+}
+
+.join .policy {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 80px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.join .check {
+    color: #333;
+    margin: 60px 0 20px;
+}
+
+.join .button {
+    text-align: center;
+    margin-top: 30px
+}
+
+.join .button .ok,
+.join .button button{
+    display: inline-block;
+    width: 200px;
+    line-height: 24px;
+    background: #1668b3;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 16px 0 17px;
+    border-radius: 4px;
+    border: 1px solid #1668b3;
+}
+
+.join .button .cancel {
+    display: inline-block;
+    width: 200px;
+    line-height: 24px;
+    padding: 16px 0 17px;
+    color: #1668b3;
+    border: 1px solid #1668b3;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer
+}
+
+.join .allcheck {
+    background: transparent;
+}
+
+input[type=checkbox]+label::before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid #999;
+    border-radius: 50%;
+    content: '';
+    margin: 0px 15px -6px 0px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked+label::before {
+    background: #fff url(../images/checked_bg.png) center center no-repeat;
+    border: 2px solid #1668b3;
+}
+
+.essential {
+    color: #1668b3;
+}
+
+.allcheck label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.join .allcheck{
+    margin-top: 40px;
+    border-top: 2px solid #ececec;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+

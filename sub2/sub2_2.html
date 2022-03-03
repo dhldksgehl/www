@@ -1,0 +1,403 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>브랜드 - 매장찾기</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="">
+        <h3>브랜드</h3>
+        <p>BRAND</p>
+    </div>
+
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub2_1.html">브랜드 소개</a></li>
+            <li class="current"><a href="./sub2_2.html">매장찾기</a></li>
+            <li><a href="./sub2_3.html">세계 속 푸드빌</a></li>
+        </ul>
+    </div>
+
+
+    <article id="content">
+
+        <div class="title_area">
+            <div class="line_map">HOME &gt; 브랜드 &gt; <strong>매장찾기</strong></div>
+            <h2>매장찾기</h2>
+            <p>언제나 함께하는 CJ푸드빌 자사 브랜드의 매장을 안내해드립니다.</p>
+        </div>
+
+        <div class="content_area">
+            <div class="list_search">
+                <div class="list_search1">
+                    <select name="find">
+                        <option value="">도/시 선택</option>
+                        <option value="강원">강원</option>
+                        <option value="경기">경기</option>
+                        <option value="경남">경남</option>
+                        <option value="경북">경북</option>
+                        <option value="광주">광주</option>
+                        <option value="대구">대구</option>
+                        <option value="대전">대전</option>
+                        <option value="부산">부산</option>
+                        <option value="서울">서울</option>
+                        <option value="세종">세종</option>
+                        <option value="울산">울산</option>
+                        <option value="인천">인천</option>
+                        <option value="전남">전남</option>
+                        <option value="전북">전북</option>
+                        <option value="제주">제주</option>
+                        <option value="충남">충남</option>
+                        <option value="충북">충북</option>
+                    </select>
+
+
+                </div>
+                <div class="list_search2">
+                    <label for="search" class="hidden">검색</label>
+                    <input type="text" id="search" name="search">
+                </div>
+                <div class="list_search3">
+                    <label for="search_button" class="hidden">검색버튼</label>
+                    <input type="submit" id="search_button" value="검색">
+                </div>
+                <p class="caution">매장명을 모를 경우, 도/시 선택 후 검색버튼을 눌러주세요.</p>
+
+                <p class="caption">※ 사전 예약은 조기 마감 될 수 있으며, 예약 문의는 해당 매장으로 연락주시기 바랍니다. </p>
+            </div>
+
+            <table class="tables">
+                <colgroup>
+                    <col style="width:15%;">
+                    <col style="width:15%;">
+                    <col style="width:20%;">
+                    <col style="width:30%;">
+                    <col>
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th scope="col">브랜드</th>
+                        <th scope="col">위치</th>
+                        <th scope="col">매장</th>
+                        <th scope="col">전화번호</th>
+                        <th scope="col">매장서비스</th>
+                    </tr>
+                </thead>
+
+                <tbody class="text_center">
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>송파구청점</td>
+                        <td>02-404-7440</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>송파솔렌시아점</td>
+                        <td>02-404-6141</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>잠실점</td>
+                        <td>02-404-6432</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>잠실롯데마트점</td>
+                        <td>02-404-6246</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>오금사거리점</td>
+                        <td>02-404-6124</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>송파나루점</td>
+                        <td>02-404-1213</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-5517</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-3321</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6322</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6111</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-3531</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-2333</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-7434</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6754</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-8201</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>합정사거리점</td>
+                        <td>02-404-6742</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-5203</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>합정사거리점</td>
+                        <td>02-404-2403</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-4118</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-2418</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-1218</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6980</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>홍대점</td>
+                        <td>02-404-6163</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6163</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6125</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>홍대점</td>
+                        <td>02-404-6126</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6128</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>홍대점</td>
+                        <td>02-4046-129</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6125</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>홍대점</td>
+                        <td>02-404-6135</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6104</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>홍대점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>개롱역점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6129</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>서울역점</td>
+                        <td>02-404-6203</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>개롱역점</td>
+                        <td>02-404-6203</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                    <tr>
+                        <td>뚜레쥬르</td>
+                        <td>서울</td>
+                        <td>강동구청점</td>
+                        <td>02-404-6134</td>
+                        <td class="text_left">주차가능, 예약가능</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+
+</body>
+
+</html>

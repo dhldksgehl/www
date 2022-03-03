@@ -1,0 +1,57 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채용정보 - Caption &middot; Trainer</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="">
+        <h3>채용정보</h3>
+        <p>RECRUITMENT</p>
+    </div>
+
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub6_1.html">채용공고</a></li>
+            <li class="current"><a href="./sub6_2.html">Captain &middot; Trainer</a></li>
+            <li><a href="./sub6_3.html">현장스탭</a></li>
+            <li><a href="./sub6_4.html">지원서확인</a></li>
+        </ul>
+    </div>
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">HOME &gt; 채용정보 &gt; <strong>Caption &middot; Trainer</strong></div>
+            <h2>Captain &middot; Trainer</h2>
+            <p></p>
+        </div>
+
+
+        <div class="content_area">
+
+
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+/* sub6 공통 - 비주얼/ 서브네비/ 타이틀영역 */
+
+
+.visual {
+        width: 2000px;
+        margin-top: 220px;
+        position: relative;
+        left: 50%;
+        margin-left: -1000px;
+        top: 0;
+}
+
+.visual h3 {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        font-size: 2.8em;
+        left: 0;
+        top: 100px;
+        color: #fff;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+}
+
+.visual P {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        font-size: 1.4em;
+        left: 0;
+        top: 150px;
+        color: #fff;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+}
+
+.sub_menu {
+        width: 800px;
+        margin: 0 auto;
+        position: relative;
+        top: -69px;
+        margin-bottom: -69px;
+}
+
+.sub_menu ul {
+        overflow: hidden;
+        margin: 0 auto;
+}
+
+.sub_menu ul li {
+        float: left;
+}
+
+.sub_menu ul li a {
+        display: block;
+        font-size: 20px;
+        padding: 20px 0;
+        width: 200px;
+        background: rgba(0, 0, 0, .6);
+        text-align: center;
+        color: #fff;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+}
+
+.sub_menu ul li a:hover {
+        background: #fff;
+        color: #333;
+        font-weight: bold;
+}
+
+.sub_menu .current a {
+        background: #1668b3;
+        color: white;
+        font-weight: bold;
+}
+
+#content {
+        width: 1200px;
+        margin: 0 auto;
+}
+
+#content .title_area {
+        position: relative;
+        padding-top: 150px;
+}
+
+#content .title_area p {
+        text-align: center;
+        margin-bottom: 150px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+}
+
+#content .line_map {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 300;
+}
+
+#content h2 {
+        text-align: center;
+        font-size: 56px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+}
+
+#content .title_area::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -110px;
+        width: 2px;
+        height: 80px;
+        background: #999;
+}
+
+#footerArea {
+        margin-top: 180px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+    
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0803d9053526c2cce3cb351605e03f1c"></script>
+    <script src="./js/kakao_map.js"></script>
+    <script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(37.56436266387196, 126.99173317113525),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+</head>
+<body>
+    
+    <div class="map">
+        <h3>찾아오시는길</h3>
+        <div id="map" style="width:1000px;height:450px;">
+        
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ 푸드빌</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+
+<body>
+    <? include "./common/main_header.html" ?>
+    <div class="visual">
+        <div class="gallery">
+            <ul>
+                <li class="link1">
+                    <a href="#">
+                        <img src="./images/main_1.jpg" alt="메인이미지">
+                        <p><span>Healthy & Delicious<br></span>
+                            모두에게 행복한 장소가 되는곳,<br>
+                            건강하고 즐거운 식문화를 만드는 글로벌 식품 기업 CJ푸드빌입니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="link2">
+                    <a href="#">
+                        <img src="./images/main_2.jpg" alt="메인이미지">
+                        <p><span>Happy Place for Everyone<br></span>
+                            모두에게 행복한 장소가 되는곳,<br>
+                            건강하고 즐거운 식문화를 만드는 글로벌 식품 기업 CJ푸드빌입니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="link3">
+                    <a href="#">
+                        <img src="./images/main_3.jpg" alt="메인이미지">
+                        <p><span>Heartfelt Service<br></span>
+                            건강한 맛과 행복한 서비스,<br>
+                            건강하고 즐거운 식문화를 만드는 글로벌 식품 기업 CJ푸드빌입니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="link4">
+                    <a href="#">
+                        <img src="./images/main_4.jpg" alt="메인이미지">
+                        <p><span>Lead Globalization<br></span>
+                            전세계를 감동시킬 우리의 맛과 멋,<br>
+                            건강하고 즐거운 식문화를 만드는 글로벌 식품 기업 CJ푸드빌입니다.
+                        </p>
+                    </a>
+                </li>
+                <li class="link5">
+                    <a href="#">
+                        <img src="./images/main_5.jpg" alt="메인이미지">
+                        <p><span>Korean Food Culture<br></span>
+                            전세계를 감동시킬 우리의 맛과 멋,<br>
+                            건강하고 즐거운 식문화를 만드는 글로벌 식품 기업 CJ푸드빌입니다.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="dock">
+            <span class="mbutton btn1"></span>
+            <span class="mbutton btn2"></span>
+            <span class="mbutton btn3"></span>
+            <span class="mbutton btn4"></span>
+            <span class="mbutton btn5"></span>
+            <span class="ps"></span>
+        </div>
+        <!-- <span class="btn btnLeft"><i class="fas fa-chevron-left"></i></span>
+            <span class="btn btnRight"><i class="fas fa-chevron-right"></i></span> -->
+    </div>
+
+    <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+        <div class="about">
+            <h3>ABOUT</h3>
+            <p>건강하고 즐거운 식문화를 만드는 글로벌 기업 CJ푸드빌입니다.</p>
+
+            <div class="backlogo">
+                <img src="./images/back_logo.png" alt="배경이미지">
+            </div>
+
+            <ul>
+                <li class="about1">
+                    <a href="./sub1/sub1_1.html">
+                        <img src="./images/about_img1.jpg" alt="CJ푸드빌소개">
+                        <dl>
+                            <dt>CJ 푸드빌 소개</dt>
+                            <dd>
+                                글로벌 외식문화<br>
+                                기업의 시작을 열다.
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li class="about2">
+                    <a href="./sub3/sub3_2.html">
+                        <img src="./images/about_img2.jpg" alt="상생나눔경영">
+                        <dl>
+                            <dt>상생 나눔경영</dt>
+                            <dd>
+                                글로벌 외식문화 기업으로서의<br>
+                                사회적 책임을 다하고자 노력하고 있습니다.
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2/sub2_2.html">
+                        <img src="./images/about_img3.jpg" alt="세계속의 푸드빌">
+                        <dl>
+                            <dt>매장찾기</dt>
+                            <dd>
+                                사랑하는 사람들과 함께하는 공간,<br>
+                                CJ푸드빌 브랜드의 매장정보를 알려드립니다.
+                            </dd>
+                        </dl>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="foodville wide">
+            <div class="inner">
+                <h3>FOODVILLE</h3>
+                <p>GLOBAL 기업으로 나아가기 위한 CJ 푸드빌의 비전이 여러분의 새로운 문화가 되길 바랍니다.</p>
+
+                <div class="tabs">
+                    <ul class="sub_tab_menu">
+                        <li><a class="tab tab1" href="#">VISION</a></li>
+                        <li><a class="tab tab2" href="#">HISTORY</a></li>
+                        <li><a class="tab tab3" href="#">GLOBAL</a></li>
+                    </ul>
+
+                    <div class="mission cont">
+                        <img src="./images/foodville_1.jpg" alt="비전이미지">
+                        <p>ONLYONE적인 맛과 서비스로<br> 일상의 즐거움을 창조한다.</p>
+                        <a class="more" href="./sub1/sub1_2.html"><span class="hidden">더보기</span><i
+                                class="far fa-arrow-alt-circle-right"></i></a>
+                    </div>
+
+                    <div class="history cont">
+                        <img src="./images/foodville_2.jpg" alt="역사이미지">
+                        <p>건강하고 즐거운 식문화를 만드는<br>GLOBAL F&B COMPANY</p>
+                        <a class="more" href="./sub1/sub1_3.html"><span class="hidden">더보기</span><i
+                                class="far fa-arrow-alt-circle-right"></i></a>
+                    </div>
+
+                    <div class="global cont">
+                        <img src="./images/foodville_3.jpg" alt="글로벌이미지">
+                        <p>소중한 우리의 맛과 차별화 된 우리의 식문화를<br>
+                            CJ푸드빌이 전세계로 알립니다.</p>
+                        <a class="more" href="./sub2/sub2_3.html"><span class="hidden">더보기</span><i
+                                class="far fa-arrow-alt-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="brand">
+            <h3>BRAND</h3>
+            <p>사랑하는 사람들과의 행복한 시간을 보내는 곳, CJ 푸드빌 브랜드를 소개합니다.</p>
+            <a class="view_more" href="./sub2/sub2_1.html">Find out more <i class="fas fa-arrow-right"></i></a>
+
+            <ul>
+                <li class="brand_box1">
+                    <dl>
+                        <dt>뚜레쥬르</dt>
+                        <dd>날마다 건강한 재료로 매장에서 직접 구운 빵을 제공하는<br>
+                            프리미엄 베이커리입니다.
+                            <a class="more" href="./sub2/sub2_1.html"><span class="hidden">더보기</span><i
+                                    class="far fa-arrow-alt-circle-right"></i></a>
+                        </dd>
+                    </dl>
+                    <img src="./images/brand_img1.jpg" alt="뚜레쥬르이미지">
+                </li>
+
+                <li class="brand_box2">
+                    <dl>
+                        <dt>빕스</dt>
+                        <dd>고급 스테이크하우스에서만 맛볼 수 있던 프리미엄 스테이크의<br>
+                            계절마다 변하는 다채롭고 신선한 샐러드바로<br>
+                            국내 외식업계를 선도해 온 브랜드입니다.
+                            <a class="more" href="./sub2/sub2_1.html"><span class="hidden">더보기</span><i
+                                    class="far fa-arrow-alt-circle-right"></i></a>
+                        </dd>
+                    </dl>
+                    <img src="./images/brand_img2.jpg" alt="빕스이미지">
+                </li>
+
+                <li class="brand_box3">
+                    <dl>
+                        <dt>더플레이스</dt>
+                        <dd>이탈리안을 즐기는 방식은 다양한지만 더플레이스가 선사하는 이탈리안은<br>
+                            현재진행형의 Taste of MILANO 입니다.
+                            <a class="more" href="./sub2/sub2_1.html"><span class="hidden">더보기</span><i
+                                    class="far fa-arrow-alt-circle-right"></i></a>
+                        </dd>
+                    </dl>
+                    <img src="./images/brand_img3.jpg" alt="더플레이스이미지">
+                </li>
+            </ul>
+        </div>
+
+        <div class="campain">
+            <h3>CAMPAIN</h3>
+            <P>CJ푸드빌의 다양한 활동 생생한 현장이야기를 소개합니다</P>
+            <a class="view_more" href="./sub5/sub5_1.html">Find out more <i class="fas fa-arrow-right"></i></a>
+
+            <div class="box_wrap">
+                <div class="box_left">
+                    <div class="box_1">
+                        <img src="./images/campain_1.jpg" alt="이미지">
+                    </div>
+                    <div class="box_4">
+                        <img src="./images/campain_4.jpg" alt="이미지">
+                    </div>
+                    <div class="box_5">
+                        <img src="./images/campain_5.jpg" alt="이미지">
+                    </div>
+                </div>
+                <div class="box_right">
+                    <div class="box_2">
+                        <img src="./images/campain_2.jpg" alt="이미지">
+                    </div>
+                    <div class="box_3">
+                        <img src="./images/campain_3.jpg" alt="이미지">
+                    </div>
+                    <div class="box_6">
+                        <img src="./images/campain_6.jpg" alt="이미지">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <? include "./lib/func.php"; ?>
+
+        <div class="talk wide">
+            <div class="inner">
+                <h3>TALK</h3>
+                <p>CJ 푸드빌은 고객의 의견을 적극 반영합니다.</p>
+
+                <a class="view_more" href="./concert/list.php">Find out more <i class="fas fa-arrow-right"></i></a>
+                <div id="voc" class="cont talk_box">
+                    <? latest_article("concert", 5, 30); ?>
+                </div>
+
+                <ul class="btn remote">
+                    <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <? include "./common/main_footer.html" ?>
+    <script src="mainjs/move.js"></script>
+    <script src="mainjs/main.js"></script>
+    <script src="./common/js/foodville_tab.js"></script>
+    <script src="./common/js/talk.js"></script>
+
+    <!-- 공지사항팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;left:300px;top:300px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/pop.png"
+                alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#fff;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은
+                이창을 열지 않음.</label>
+            <a href="#" onclick="closeWin();hidebox();return false;" style="color: #fff;"> [close] </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

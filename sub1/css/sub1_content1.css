@@ -1,0 +1,154 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_1*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .title_area::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -110px;
+    width: 2px;
+    height: 80px;
+    background: #999;
+}
+
+#content .content_area h3 {
+    font-size: 2.14em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: #1668b3;
+    display: block;
+    margin-left: 100px;
+}
+
+#content .content_area p {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto;
+    color: #333;
+}
+
+/* .navOn{position: fixed; width: 100%; z-index: 50; left: 0; top: 0; background: #333;} */
+
+#content .navBox.menu_sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    z-index: 100;
+}
+
+#content .navBox.menu_sticky ul {
+    margin: 0 auto;
+}
+
+#content .navBox.menu_sticky ul li {
+    margin: 0 0 200px;
+    width: 400px;
+    padding: 20px 0;
+}
+
+#content .navBox.menu_sticky a {
+    color: #fff;
+    padding: 40px;
+    font-size: 1.5em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+
+}
+
+#content .navBox.menu_sticky .spy {
+    background: fff;
+    color: aqua;
+}
+
+#content .content_area ul {
+    overflow: hidden;
+    padding: 10px;
+}
+
+#content .content_area ul li {
+    position: relative;
+    height: 620px;
+    margin: 180px 15px 15px 5px;
+}
+
+#content .content_area ul li img {
+    z-index: -1;
+}
+
+#content .content_area ul li:nth-child(1) img {
+    position: absolute;
+    top: 0;
+}
+
+#content .content_area ul li:nth-child(2) img {
+    position: absolute;
+    right: 0;
+}
+
+#content .content_area ul li:nth-child(3) img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#content .content_area dl {
+    width: 760px;
+    height: 400px;
+    background: #fff;
+    float: right;
+    margin-top: 180px;
+    padding: 0 80px 25px 100px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+#content .content_area ul li:nth-child(1) dl {}
+
+#content .content_area ul li:nth-child(2) dl {
+    float: left;
+    margin-bottom: 180px;
+}
+
+#content .content_area ul li:nth-child(3) dl {}
+
+#content .content_area dt {
+    font-size: 2.63em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 100px;
+    color: #1668b3;
+}
+
+#content .content_area dd {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+#content .content_area .circle {
+    position: absolute;
+    margin: 0 auto;
+    top: 240px;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #1668b3;
+    border-radius: 50%;
+}

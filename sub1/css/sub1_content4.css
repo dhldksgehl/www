@@ -1,0 +1,75 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_4*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .title_area::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -110px;
+    width: 2px;
+    height: 80px;
+    background: #999;
+}
+
+#map {
+    margin: 40px auto 80px;
+    width: 1200px;
+    height: 500px;
+}
+
+#content .address h4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin-bottom: 32px;
+    color: #333;
+}
+
+#content .address {
+    overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.5em;
+    margin: 30px 40px;
+}
+
+#content ul li {
+    padding: 30px 40px;
+}
+
+#content ul li h4 {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+#content ul li dl {
+    overflow: hidden;
+    font-size: 1.125em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+#content ul li dl dt {
+    float: left;
+    margin-right: 50px;
+}
+
+#content ul li dl dd {
+    position: relative;
+}

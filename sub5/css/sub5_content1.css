@@ -1,0 +1,52 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_1*/
+
+
+#content .content_area{
+    width: 1200px;
+    text-align: justify; font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal; word-break:keep-all;
+    overflow: hidden;
+}
+
+
+
+
+#content .content_area .cont_start{}
+#content .content_area h3{font-size: 2em; display: block; margin-left: 100px; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; color: #1668b3;}
+#content .content_area p{font-size: 1.2em; margin-bottom: 210px; display: block; width: 1000px; margin: 0 auto; margin-bottom: 210px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #333; line-height: 2em; margin-top: 20px;}
+#content .content_area ul{}
+#content .content_area ul li{position: relative; height: 620px; margin-bottom: 180px;}
+#content .content_area ul li img{z-index: -1;}
+#content .content_area ul li:nth-child(3){}
+#content .content_area ul li:nth-child(1) img{position: absolute; top: 0;}
+#content .content_area ul li:nth-child(2) img{position: absolute; right: 0;}
+#content .content_area ul li:nth-child(3) img{position: absolute; top: 0;}
+
+#content .content_area dl{width: 760px; height: 400px; background: #fff; float: right; margin-top: 220px; padding: 0 50px 0 100px; box-shadow:5px 5px 10px rgba(0,0,0,0.2);}
+#content .content_area ul li:nth-child(1) dl{}
+#content .content_area ul li:nth-child(2) dl{float: left; margin-bottom: 180px;}
+#content .content_area ul li:nth-child(3) dl{}
+
+#content .content_area dt{font-size: 2.63em; text-align: left; margin-top: 100px; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; color: #1668b3;}
+#content .content_area dd{font-size: 1.2em; line-height: 2em; margin-top: 20px;}
+
+#content .content_area .cont1{}
+
+#content .content_area .circle{margin: 0 auto; position: absolute; top: 290px;
+    width: 10px; height: 10px;
+    border: 5px solid #1668b3; border-radius: 50%;}
+
+    
+/* #content .content_area ul li a{}
+#content .content_area ul li dl{}
+#content .content_area ul li dl dt{}
+#content .content_area ul li dl dd{}
+#content .content_area ul li dl dd img{}
+#content .content_area ul li dl dd span{} */
+
+
+#footer .footerArea{}
+
+
+

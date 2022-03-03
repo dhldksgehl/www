@@ -1,0 +1,181 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub3_2*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .content_area h3 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    margin: 60px auto 20px;
+}
+
+#content .title_area .title {
+    text-align: center;
+    font-size: 1.333em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto 210px;
+    color: #333;
+}
+
+#content .content_area p {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto 80px;
+    color: #333;
+}
+
+#content .sub_tab_menu {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#content .sub_tab_menu li {
+    width: 198px;
+    height: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.333em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    display: block;
+    float: left;
+    transition: all .5s;
+    margin: 0 auto 80px;
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    padding: 20px 0;
+}
+
+#content .content_area dt {
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: block;
+    color: #333;
+}
+
+#content .content_area dd {
+    font-size: 1.2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    width: 1000px;
+    color: #333;
+}
+
+#content .content_area .cont {
+    display: none;
+}
+
+
+/* cont1 */
+#content .content_area .cont1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* cont2 */
+#content .content_area .cont2 p {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    display: block;
+    margin: 20px auto 80px;
+    color: #333;
+    padding: 100px;
+    background: rgb(250, 250, 250);
+}
+
+#content .content_area .cont2 dl dt {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+    display: block;
+
+}
+
+#content .content_area .cont2 dl dd {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    margin-top: 20px;
+    width: 1000px;
+    float: right;
+}
+
+#content .content_area .cont2 img {
+    width: 1000px;
+    float: right;
+}
+
+#content .content_area .cont2 li {
+    overflow: hidden;
+}
+
+
+/* cont3 */
+#content .content_area .cont3 img {
+    display: block;
+    margin: 0 auto 80px;
+}
+
+#content .content_area .cont3 h3 {
+    font-size: 1.5em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+/* cont4 */
+#content .content_area .cont4 dl dt {
+    font-size: 1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+    display: block;
+
+}
+
+#content .content_area .cont4 dl dd {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    margin-top: 20px;
+    width: 800px;
+    float: right;
+}
+
+#content .content_area .cont4 img {
+    width: 400px;
+    float: right;
+}
+
+#content .content_area .cont4 li {
+    overflow: hidden;
+}

@@ -1,0 +1,130 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_3*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .title_area::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -110px;
+    width: 2px;
+    height: 80px;
+    background: #999;
+}
+
+#content .content_area p {
+    font-size: 1.2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto 210px;
+    color: #333;
+}
+
+#content .subNav {
+    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+}
+
+#content .subNav li a {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.333em;
+    font-weight: 300;
+    position: relative;
+    display: block;
+    float: left;
+    width: 196px;
+    height: 30px;
+    font-size: 20px;
+    padding: 25px 0;
+    text-align: center;
+    color: #333;
+    transition: all .5s;
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    margin: 0 auto;
+}
+
+#content .subNav a.spy {
+    display: block;
+    background: rgb(242, 146, 27);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(242, 146, 27);
+    width: 196px;
+    height: 30px;
+    padding: 25px 0;
+}
+
+#content .content_area dl dt {
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: block;
+    margin: 30px auto 20px;
+    color: #333;
+}
+
+#content .content_area dl dd {
+    font-size: 1.1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: block;
+    margin: 5px auto 0;
+    color: #333;
+}
+
+#content .content_area dl dt::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #1668b3;
+    border-radius: 50%;
+    left: 587px;
+    top: 45px;
+    z-index: 98;
+}
+
+#content .content_area dl dt::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    left: 595px;
+    top: 57px;
+    background: #f4f4f4;
+}
+
+#content .content_area dl {
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+#content .content_area dl:nth-child(even) {
+    padding-right: 700px;
+    text-align: right;
+}
+
+#content .content_area dl:nth-child(odd) {
+    padding-left: 700px;
+    text-align: left;
+}

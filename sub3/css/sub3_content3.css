@@ -1,0 +1,79 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 기업소개 내용*/
+/* sub1_3*/
+
+
+#content .content_area {
+    width: 1200px;
+    text-align: justify;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    white-space: normal;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+#content .content_area h3 {
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    display: block;
+}
+
+#content .content_area p {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto 80px;
+    color: #333;
+}
+
+#content .sub_tab_menu {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#content .sub_tab_menu li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.333em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    display: block;
+    float: left;
+    width: 198px;
+    height: 30px;
+    padding: 20px 0;
+    color: #333;
+    transition: all .5s;
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(250, 250, 250);
+    margin: 0 auto 80px;
+}
+
+#content .content_area .cont {
+    display: none;
+}
+
+#content .content_area dt {
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    display: block;
+    width: 1000px;
+    margin: 20px auto;
+    color: #333;
+}
+
+#content .content_area dd {
+    font-size: 1.25em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: block;
+    width: 1000px;
+    margin: 0 auto 50px;
+    color: #333;
+}

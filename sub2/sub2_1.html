@@ -1,0 +1,165 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>브랜드 - 브랜드소개</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="">
+        <h3>브랜드</h3>
+        <p>BRAND</p>
+    </div>
+
+    <div class="sub_menu">
+        <ul>
+            <li class="current"><a href="./sub2_1.html">브랜드 소개</a></li>
+            <li><a href="./sub2_2.html">매장찾기</a></li>
+            <li><a href="./sub2_3.html">세계 속 푸드빌</a></li>
+        </ul>
+    </div>
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">HOME &gt; 브랜드 &gt; <strong>브랜드 소개</strong></div>
+            <h2>브랜드 소개</h2>
+            <p>사랑하는 사람들과의 행복한 시간을 함께 하는 곳, CJ푸드빌 브랜드를 소개합니다.</p>
+
+
+            <div class="navBox">
+                <ul class="sildeMenu">
+                    <li><a class="link1" href="#">뚜레쥬르</a></li>
+                    <li><a class="link2" href="#">빕스</a></li>
+                    <li><a class="link3" href="#">더플레이스</a></li>
+                    <li><a class="link4" href="#">계절밥상</a></li>
+                    <li><a class="link5" href="#">제일제면소</a></li>
+                    <li><a class="link6" href="#">빕스버거</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content_area">
+            <ul>
+                <li class="slide_con con1">
+                    <dl>
+                        <dt><span>신선함이 가득한 베이커리</span><br>뚜레쥬르</dt>
+                        <dd>뚜레쥬르는(Tous Les Jours - 프랑스어로 ‘매일매일’이라는 뜻) 그 이름의 의미처럼 날마다 건강한 재료로 매장에서 직접 구운 빵을 제공하는 프리미엄
+                            베이커리입니다.
+                            2004년 미국을 시작으로 해외 약 390여 개의 매장을 운영하며, 글로벌 베이커리로서 입지를 공고히 다져가고 있습니다
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.tlj.co.kr:7008/microsite/2021/tlj_cookierun/intro.asp" target="_blank"
+                            title="뚜레쥬르가 새창에 열림"><img src="./images/content1/img1.jpg" alt="뚜레쥬르이미지"></a>
+                    </div>
+                </li>
+
+                <li class="slide_con con2">
+                    <dl>
+                        <dt><span>My No.1 Steakhouse</span><br>빕스</dt>
+                        <dd>빕스는 고급 스테이크하우스에서만 맛볼 수 있던 프리미엄 스테이크와 계절마다 변하는 다채롭고 신선한 샐러드바로 국내 외식 업계를 선도해 온 브랜드입니다.
+                            빕스는 정통 스테이크는 물론 얌스톤 스테이크, 골든 프리미어 스테이크 등 다양한 프리미엄 스테이크와 가치를 더욱 높인 샐러드바 메뉴로 우리나라의 대표 패밀리
+                            레스토랑으로 사랑받고 있습니다.
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.ivips.co.kr:7002/intro/211201/intro.asp" target="_blank"
+                            title="빕스가 새창에 열림"><img src="./images/content1/img2.jpg" alt="빕스이미지"></a>
+                    </div>
+                </li>
+
+                <li class="slide_con con3">
+                    <dl>
+                        <dt><span>Taste of MILANO</span><br>더플레이스</dt>
+                        <dd>초고층 빌딩숲 사이로 두오모를 품은 도시
+                            패션과 디자인의 내일을 자신 있게 제시하는 도시
+                            특유의 열정과 유쾌함으로 매력을 발산하는 도시
+                            바쁘게 돌아가는 삶 속에서
+                            아페리티보의 여유를 즐기는 도시
+                            이런 밀라노의 라이프스타일과 취향(taste)을 더플레이스만의 메뉴와 공간에 담아냅니다.
+                            이탈리안을 즐기는 방식은 다양하지만 더플레이스가 선사하는 이탈리안은 현재 진행형의 Taste of MILANO 입니다.
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.italiantheplace.co.kr:7022/" target="_blank" title="더플레이스가 새창에 열림"><img
+                                src="./images/content1/img3.jpg" alt="더플레이스이미지"></a>
+                    </div>
+                </li>
+
+                <li class="slide_con con4">
+                    <dl>
+                        <dt><span>산지 재철식재로 만든 건강한 밥상</span><br>계절밥상</dt>
+                        <dd>계절밥상은 전국 각 지역 농가에서 직접 공급받은 신선한
+                            재료를 활용해 우리 농가와의 상생을 실현하며, 제철 재료로
+                            만든 건강한 제철 음식을 경험할 수 있는 한식 브랜드입니다.
+
+                            우리 땅, 우리 채소, 우리의 풍토가 빚어낸 다양한 발효
+                            식품들이 진정한 우리의 맛, 최고의 먹을거리라는 믿음을
+                            바탕으로, 제철 음식의 소중함을 도시인들에게 전하고 있습니다.
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.seasonstable.co.kr:7017/index.asp" target="_blank"
+                            title="계절밥상이 새창에 열림"><img src="./images/content1/img4.jpg" alt="계절밥성이미지"></a>
+                    </div>
+                </li>
+
+                <li class="slide_con con5">
+                    <dl>
+                        <dt><span>추억에 맛을 더하는 별미국수 공방</span><br>제일제면소</dt>
+                        <dd>제일제면소는 장인의 노하우로 만든 면에 맛깔스러운 별미를 더한 국수 한 끼로 몸과 마음을 채워주는 면 전문점입니다.
+                            고속도로 휴게소에서 허기를 달래주던 우동 한 그릇부터, 동네 시장에서 먹던 따끈한 잔치국수까지 국수는 우리에게 너무나 친숙한 한끼지만 제일제면소는 조금 더 특별함을
+                            선사하고자 합니다.
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank"
+                            title="제일제면소가 새창에 열림"><img src="./images/content1/img5.jpg" alt="제일제면소이미지"></a>
+                    </div>
+                </li>
+
+                <li class="slide_con con6">
+                    <dl>
+                        <dt><span>전통 아메리칸 스타일 수제버거 전문점</span><br>빕스 버거</dt>
+                        <dd>매장에서 직접 갈아 만든 순쇠고기 패티를 즉석에서 바로 구워 육즙과 풍미가 살아있는 정통 아메리칸 스타일 수제버거를 선보입니다.
+                            패티 본연의 맛을 살린 빕스버거, 클래식 버거부터 베이컨 치즈버거, 트러플 머쉬룸 버거, 모짜렐라 해시브라운 버거까지 다양한 버거류를 딜리버리를 통해 만날 수
+                            있습니다.
+                            <!-- <a class="more" href="#"><span class="hidden">더보기</span><i class="far fa-arrow-alt-circle-right"></i></a> -->
+                        </dd>
+                    </dl>
+                    <div class="img">
+                        <a href="https://www.cjfoodworld.com:7015/brand/slide_con view.asp?sbrendcode=300018"
+                            target="_blank" title="빕스버거가 새창에 열림"><img src="./images/content1/img6.jpg" alt="버거이미지"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/silde_move.js"></script>
+</body>
+
+</html>
