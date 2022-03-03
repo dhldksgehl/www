@@ -1,0 +1,96 @@
+/* .visual{
+    width: 320px; height: 200px; 
+    background: url(../images/visual_1.jpg) 0 0 no-repeat; background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .visual { background: url("../images/visual_1x2.jpg") 0 0 no-repeat;
+    -webkit-background-size:320px 200px;}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+    .visual { background: url("../images/visual_1x3.jpg") 0 0 no-repeat;
+    -webkit-background-size:320px 200px;}
+} */
+
+.visual {
+    height: 200px;
+    background: url(../images/sub1/visualx2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.visual h3 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.visual P {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* .sub_menu{
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.sub_menu ul li a{
+    display: block;
+    padding: 2%;
+}
+
+.sub_menu span{
+    display: block;
+    padding: 2%;
+} */
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#content .title_area {
+    position: relative;
+}
+
+#content p {
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 20px auto;
+    text-align: justify
+}
+
+#content .content_area {
+    padding-top: 10px;
+}
+
+#content ul li dl dt {
+    font-size: 1.2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#content ul li dl dd {
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}

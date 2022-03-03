@@ -1,0 +1,109 @@
+#content {
+  width: 90%;
+}
+
+#content h3 {
+  font-size: 1.29em;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  position: relative;
+  margin: 40px 20px 10px;
+}
+
+#content h3::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: -20px;
+  border: 3px solid #1668b3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#content .content_area .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+#content .content_area img {
+
+  width: 20%;
+  display: block;
+  margin: 0 auto 150px;
+}
+
+#content .content_area dl {
+  margin-top: 80px;
+  position: absolute;
+  width: 70%;
+}
+
+#content .content_area dt {
+  font-size: 1.29em;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+#content .content_area dd {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 300;
+  /* text-align: justify; */
+  white-space: normal;
+  word-break: keep-all;
+}
+
+#content .content_area iframe {
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

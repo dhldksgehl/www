@@ -1,0 +1,33 @@
+{
+  "voc": [
+    {
+      "talk": "서빙하시는 직원분 너무 친절해요!",
+      "img": "./images/talk_img1.jpg",
+      "map": "더플레이스 잠실점",
+      "a": "./sub5/sub5_2.html",
+      "date": "2021.11.29"
+      
+    },
+    {
+      "talk": "접시 좀 빨리 치워주셨으면 좋겠어요ㅠ",
+      "img": "./images/talk_img2.jpg",
+      "map": "계절밥상 잠실롯데점",
+      "a": "./sub5/sub5_2.html",
+      "date": "2021.11.17"
+    },
+    {
+      "talk": "매장이 너무 추워요.. 곧 얼듯ㅠㅠㅜ",
+      "img": "./images/talk_img3.jpg",
+      "map": "뚜레쥬르 송파구청점",
+      "a": "./sub5/sub5_2.html",
+      "date": "2021.11.11"
+    },
+    {
+      "talk": "음식 언제나오나요!!! 기다리다지쳐 잠들겠네ㅎ",
+      "img": "./images/talk_img2.jpg",
+      "map": "뚜레쥬르 송파구청점",
+      "a": "./sub5/sub5_2.html",
+      "date": "2021.11.09"
+    }
+  ]
+}

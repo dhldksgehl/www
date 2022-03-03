@@ -1,0 +1,31 @@
+#content {
+    width: 90%;
+}
+
+#content img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#content dl {
+    margin-bottom: 10%;
+    /* text-align: justify; */
+    white-space: normal;
+    word-break: keep-all;
+}
+
+#content dl dt {
+    font-size: 1.29em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    float: left;
+}
+
+#content dl dd {
+    margin-left: 20%;
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #666;
+}

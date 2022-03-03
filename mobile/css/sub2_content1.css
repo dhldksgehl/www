@@ -1,0 +1,43 @@
+#content img{
+    width: 100%;
+}
+
+#content .content_area .slide_con{
+    position: relative;
+}
+
+#content .content_area dl {
+    position: relative;
+    top: -70px;
+    margin: 20px 10%;
+    background: #f7f7f7;
+    padding: 5%;
+}
+
+#content .content_area dt {
+    font-size: 1.29em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#content .content_area dt span {
+    font-size: 0.9rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 60px;
+    color: #999;
+}
+
+#content .content_area dd {
+    font-size: 1em;
+    line-height: 2em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    white-space: normal;
+    /* word-break: keep-all; */
+}
